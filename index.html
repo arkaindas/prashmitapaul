@@ -31,7 +31,13 @@
 </head>
 
 <body>
-
+<ul class="loader">
+  <li style="background: #69a089;"></li>
+  <li style="background: #3a8a69;"></li>
+  <li style="background: #344e43;"></li>
+</ul>
+<div class="blacksheet"></div>
+<div class="mainwrap" style="display:none;" >
   <div class="fix-header" id="home">
 
     <div class="w-container">
@@ -101,10 +107,12 @@
                 <a class="w-nav-link menu-li" href="#home">HOME</a>
 
                 <a class="w-nav-link menu-li" href="#about">ABOUT</a>
+				
+				<a class="w-nav-link menu-li" href="#soundcloud">SOUNDCLOUD</a>
 
                 <a class="w-nav-link menu-li" href="#service">AWARDS</a>
 
-                <a class="w-nav-link menu-li" href="#portfolio">PORTFOLIO</a>
+                <a class="w-nav-link menu-li" href="#youtube">YOUTUBE</a>
 
                 <a class="w-nav-link menu-li"href="#team">RECENTS</a>
 
@@ -320,7 +328,7 @@
 
 
 
-  <div class="exp service-parlex">
+  <div class="exp service-parlex" id="soundcloud">
 
     <div class="exp-back">
 
@@ -337,18 +345,18 @@
               <div class="col1-div">
 
                 <div class="experinc-box">
+				
+                <h1 class="about-heading">Listen Some MindBlowing Songs..</h1>
 
-                <h3 class="experinc-box-h3">Your Prashmita</h3>
 
-                <p>Bhromor (Radha Romon) at Gaan Abohomaan by Prashmita Paul  </p>
 
                 <div class="buttons">
 
-                <div class="btn-ex-one">
+              <!--  <div class="btn-ex-one">
 
                   <a class="ex-btn" href="#">More Videos</a>
 
-                </div>
+                </div>-->
 
 <!--                <div class="btn-ex-two">
 
@@ -543,7 +551,7 @@
               </div>
 
             </div>  -->
-    <p class="about-des"><img src="images/services/mirchi-music-awards.jpg"/>
+    <p class="about-text"><img src="images/services/mirchi-music-awards.jpg"/>
           </p>
           </div>
 
@@ -691,7 +699,7 @@
 
 
 
-  <div class="portfolio-parlex" id="portfolio">
+  <div class="portfolio-parlex" id="youtube">
 
     <div class="parlex3-back">
 
@@ -703,7 +711,13 @@
 
             <h1 class="portfolio-heading">PORTFOLIO</h1>
 
-            <div class="portfolio-text">OUR WORK</div>
+            <div class="portfolio-text">
+				<div class="templatemo-gallery-category" style="font-size:16px; margin-top:80px;">
+                        <div class="text-center">
+                            <a class="active" href=".gallery">All</a> / <a href=".gallery-design expandOpen">Web Design </a>/ <a href=".gallery-graphic">Graphic</a> / <a href=".gallery-inspiration">Inspiration</a> / <a href=".gallery-creative">Creative</a>							
+                        </div>
+                </div>
+			</div>
 
             <div class="sepreater"></div>
 
@@ -717,7 +731,7 @@
 
       <ul class="grid cs-style-1">
 
-        <li>
+        <li class="gallery gallery-graphic">
 
           <figure>
 
@@ -737,7 +751,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-inspiration">
 
           <figure>
 
@@ -757,7 +771,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-graphic">
 
           <figure>
 
@@ -777,7 +791,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-graphic">
 
           <figure>
 
@@ -797,7 +811,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-graphic">
 
           <figure>
 
@@ -817,7 +831,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-graphic">
 
           <figure>
 
@@ -837,7 +851,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-design">
 
           <figure>
 
@@ -857,7 +871,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-graphic">
 
           <figure>
 
@@ -877,7 +891,7 @@
 
         </li>
 
-        <li>
+        <li class="gallery gallery-creative">
 
           <figure>
 
@@ -1296,7 +1310,7 @@
        //////////////////////////////////////////////////////////-->
 
 
-
+<!--
   <div class="clients-parlex">
 
     <div class="parlex6-back">
@@ -1327,9 +1341,9 @@
 
           </ul>
 
-        </div><!-- @end .clients-wrap -->
+        </div>
 
-      </div><!-- @end #clients -->
+      </div>
 
           </div>
 
@@ -1339,7 +1353,7 @@
 
     </div>
 
-  </div>
+  </div>-->
 
 
 
@@ -1590,25 +1604,18 @@
 
 
 
- <script type="text/javascript" src="js/jquery.js"></script>
-
-  <script type="text/javascript" src="js/normal.js"></script>
-
-  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-
-  <script type="text/javascript" src="js/carousels.js"></script>
-
-  <script type="text/javascript" src="js/slider-modernizr.js"></script>
-
-  <script src="js/classie.js"></script>
-
-  <script src="js/portfolio-effects.js"></script>
-
-  <script src="js/toucheffects.js"></script>
-
-  <script src="js/modernizr.js"></script>
-
-  <script src="js/animation.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/normal.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/carousels.js"></script>
+<script type="text/javascript" src="js/slider-modernizr.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/portfolio-effects.js"></script>
+<script src="js/toucheffects.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 
