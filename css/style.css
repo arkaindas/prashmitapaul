@@ -2417,8 +2417,9 @@ line-height: normal;
 .parlex8-back {
 
   padding-top: 15px;
+  background-color: #303!important;
+  opacity: 0.7;
 
- /* background-color: #ffce54;*/
 
 }
 
