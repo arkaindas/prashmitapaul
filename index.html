@@ -38,18 +38,18 @@ color:#44ccf6;
 color:#da2d2e;
 }
 .award {
-    -webkit-animation: awrd 5s; /* Chrome, Safari, Opera */
-    animation: awrd 5s;
+    -webkit-animation: awrd 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+    animation: awrd 5s linear 2s infinite alternate;
 }
 
 @-webkit-keyframes awrd {
-    from {transform: rotate(2deg);}
-    to {transform: rotate(-2deg)}
+    from {transform: rotate(2deg);border-radius: 0 8px;}
+    to {transform: rotate(-2deg);border-radius: 8 0px;}
 }
 
 @keyframes awrd {
-    from {transform: rotate(2deg);}
-    to {transform: rotate(-2deg)}
+    from {transform: rotate(2deg);border-radius: 0 8px;}
+    to {transform: rotate(-2deg);border-radius: 8 0px;}
 }
 
 </style>
